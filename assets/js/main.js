@@ -13,6 +13,7 @@ function ispisNavigacije(){
 }
 
 function promeni(){
+    console.log(slika1.src);
 if(slika1.src=='file:///C:/Web%20programiranje-sajt/assets/img/slika8.jpg')
 {
     console.log("usli smo u if");
