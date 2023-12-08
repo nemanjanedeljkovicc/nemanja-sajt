@@ -228,6 +228,9 @@ textarea{
 #imeprezime,#email,#telefon,#dropdownlista{
     margin-bottom: 20px;
 }
+#telefon{
+    margin-top:20px;
+}
 #imeiprezime{
     margin-bottom:10px;
 }
