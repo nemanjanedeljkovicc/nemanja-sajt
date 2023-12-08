@@ -132,7 +132,7 @@ function proveraForme(){
 function dodaj(){
     ime2.innerHTML=`<input type="text" name="ime" id="ime" placeholder="Ime:Primer(Nemanja)" /><span class="span-forma">Ime mora početi velikim slovom</span>`;
     prezime2.innerHTML=`<input type="text" name="prezime" id="prezime" placeholder="Ime:Primer(Nedeljković)" /><span class="span-forma2">Prezime mora početi velikim slovom</span>`;
-    email2.innerHTML=`<input type="text" name="email" id="email" placeholder="Email:Primer(nemanja.nedeljkovic@gmail.com)" /><span class="span-forma3">Niste dobro uneli mejl</span>`;
+    email2.innerHTML=`<input type="text" name="email" id="email" placeholder="Email:Primer(nemanja.nedeljkovic@gmail.com)" /><span class="span-forma3">Mejl u sebi mora imati @</span>`;
     var sport = new Array("MMA", "BOX", "KICKBOX");
     var n=document.getElementById("dropdownlista2");
     var y;
