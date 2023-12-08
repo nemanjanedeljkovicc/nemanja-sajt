@@ -1,0 +1,17 @@
+<rss version="2.0">
+    <channel>
+        <title>Borilačke veštine - vesti</title>
+        <link>https://nemanjanedeljkovicc.github.io/nemanja-sajt/index.html</link>
+        <description>Važne informacije</description>
+    <item>
+        <title>Cenovnik</title>
+        <link>https://nemanjanedeljkovicc.github.io/nemanja-sajt/cenovnik.html</link>
+        <description>Cene za naš projekat</description>
+    </item>
+    <item>
+        <title>Kontakt</title>
+        <link>https://nemanjanedeljkovicc.github.io/nemanja-sajt/contact.html</link>
+        <description>Možete se prijaviti za nove informacije</description>
+    </item>
+    </channel>
+</rss>
