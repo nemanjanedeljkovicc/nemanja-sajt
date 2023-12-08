@@ -142,12 +142,6 @@ form{
     width:70%;
     margin:0px auto;
 }
-.col-6 input{
-    width:100%;
-    height:50px;
-    margin-bottom:10px;
-}
-
 .col-12 input,.col-12 select{
     width:100%;
     height:50px;
@@ -225,11 +219,11 @@ textarea{
 .span-logovanje{
     display: none;
 }
-#imeprezime,#email,#telefon,#dropdownlista{
+#imeprezime,#email2,#telefon,#dropdownlista{
     margin-bottom: 20px;
 }
 #telefon{
-    margin-top:20px;
+    margin-top: 20px;
 }
 #imeiprezime{
     margin-bottom:10px;
