@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="mailto:nemanja.nedeljkovic.30.22@ict.edu.rs" />
+    <meta name="keywords" content="Borilačke veštine,kontakt,prijavite se" />
+    <meta name="language" content="serbian">
+    <meta name="description" content="Prijavite se za više informacija i borilačkim veštinama">
+    <!--ikonica-->
+    <link rel="shortcut icon" href="assets/img/gloves.png" type="image/x-icon">
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!--responsive css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/b982b959fc.js" crossorigin="anonymous"></script>
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <!--js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>Bokserski klub</title>
+</head>
+  <body onload="ispisNavigacije(),dodaj()">
+    <!--header-->
+    <header>
+        <div class="container-fluid position-absolute top-0  border-bottom border-secondary">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                        <h1><img src="assets/img/gloves.png" /><a class="navbar-brand" href="#">BORILAČKE VEŠTINE</a></h1>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                        </div>
+                        </div>
+                    </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </header>
+    <!--end header-->
+    <div id="pozadinska">
+      <div class="centriranje-blok">
+        <h2 class="text-center">KONTAKT</h2>
+      </div>
+    </div>
+
+      <div class="container mt-5">
+            <div class="row justify-content-center">
+                  <form id="kontakt">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="row" id="imeiprezime">
+                                        <div class="col-12 col-md-6" id="ime2">
+                                        </div>
+                                        <div class="col-12 col-md-6" id="prezime2">
+                                        </div>
+                                    </div>
+                                    <div class="col-12" id="email2">
+                                    </div>
+                                    <div class="col-12" id="dropdownlista2">
+                                    </div>
+                                    <div class="col-12" id="dugme2" onclick="proveraForme2()"></div>
+                                    <div class="col-12 text-center"><span class="span-logovanje">Uspesno ste se prijavili!</span></div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <iframe 
+                                    frameborder="0" height="100%" scrolling="no"
+                                    src="https://maps.google.com?saddr=Zdravka Celara 16, 11000 Beograd&z=12&output=embed" width="100%">
+                                    </iframe>
+                                </div>
+                              </div>
+                  </form>
+            </div>
+        
+      </div>
+
+      <footer>
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-12 col-lg-4 text-center" >
+                <h6>Kontakt informacije</h6>
+                <ul class="row">
+                  <li class="col-12 col-md-6 col-lg-12"><i class="fa-solid fa-location-dot"></i> Zdravka Čelara 16,Beograd</li>
+                  <li class="col-12 col-md-6 col-lg-12"><i class="fa-solid fa-envelope"></i> nemanja.nedeljkovic.30.22@gmail.com</li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-12 col-lg-4 text-center">
+                <h6>Radno vreme</h6>
+                <ul class="row">
+                  <li class="col-12 col-md-6 col-lg-12"><i class="fa-regular fa-clock"></i> Pon-Sub: 7:00-23:00</li>
+                  <li class="col-12 col-md-6 col-lg-12"><i class="fa-regular fa-clock"></i> Ned: 8:00-19:00</li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-12 col-lg-4 text-center">
+                <h6>Socijalne mreže</h6>
+                <div class="row">
+                  <ul class="col-12 d-flex justify-content-evenly">
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></li></a>
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></li></a>
+                    <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></li></a>
+                  </ul>
+                </div>
+                <div class="row">
+                  <ul class="col-12 d-flex justify-content-evenly">
+                    <li><a href="" target="_blank"><i class="fa-solid fa-sitemap"></i></li></a>
+                    <li><a href="" target="_blank"><i class="fa-solid fa-rss"></i></li></a>
+                    <li><a href="" target="_blank"><i class="fa-solid fa-file"></i></li></a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+             
+            <div class="row copy">
+              <div class="col-12">
+                <p class="text-center">Copyright &copy; 2023 Nemanja Nedeljković</p>
+              </div>
+            </div>
+          </div>
+        </div>
+   
+      </footer>
+                   <!--moj js-->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    </body>
+    </html>

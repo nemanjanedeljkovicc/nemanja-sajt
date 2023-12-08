@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="mailto:nemanja.nedeljkovic.30.22@ict.edu.rs" />
+    <meta name="keywords" content="Borilačke veštine,boks,mma,kickbox" />
+    <meta name="language" content="serbian">
+    <meta name="description" content="Naša akademija će Vam pomoći da savladate osnove boksa,kickboksa,mma">
+    <!--ikonica-->
+    <link rel="shortcut icon" href="assets/img/gloves.png" type="image/x-icon">
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!--responsive css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/b982b959fc.js" crossorigin="anonymous"></script>
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    <!--fontovi-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:ital,wght@0,100;1,100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!--js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <title>Bokserski klub</title>
+</head>
+<body onload="promeni(),napravi(),ispisNavigacije()">
+    <!--header-->
+    <header>
+        <div class="container-fluid position-absolute top-0  border-bottom border-secondary">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                        <h1><img src="assets/img/gloves.png" /><a class="navbar-brand" href="#">BORILAČKE VEŠTINE</a></h1>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                        </div>
+                        </div>
+                    </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </header>
+    <!--end header-->
+
+    <!--start carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img id="slika1" src="assets/img/slika6.jpg" class="d-block w-100" alt="slika boksera" />
+          </div>
+        </div>
+      </div>
+   <!--end carousel-->
+
+      <div class="container ms-auto main">
+        <div class="row ms-auto justify-content-center align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 trening">
+              <img src="assets/img/slika14.jpg" alt="slika" />
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 ">
+              <h2><span>V</span>AŠ <span>P</span>RVI <span>T</span>RENING</h2>
+              <p id="intro">Dobrodošli na Vaš prvi trening borilačkih veština! Ovo je početak uzbudljivog putovanja prema boljoj kondiciji, 
+                samopouzdanju i veštinama samoodbrane.Bez obzira na to jeste li početnik ili iskusni u drugim disciplinama, ulazak u svet
+                 borilačkih veština donosi svoje izazove i uživanje. </p>
+                <p id="disclaimer">Prvi trening je besplatan i svako može doći da proba neku od veština kao
+                što su boks,kickbox,mma(mixed martial arts).
+                 Pripremite se za izazov, ali i za neverovatno zadovoljstvo koje donose ove drevne veštine.</p>
+                 <a class="btn btn-outline-primary" id="togglebutton">Prikaži više</a>
+            </div>
+        </div>
+      </div>
+      <div class="container mt-5 ms-auto main">
+        <div class="row justify-content-center align-items-center row2">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <h2><span>M</span>MA</h2>
+              <p id="intro2">MMA spaja različite borilačke veštine, uključujući boks, kickbox, brazilsku jiu-jitsu, judo,
+                 rvanje i mnoge druge.Borci moraju biti višestruko vešti u raznim tehnikama kako bi bili uspešni u ringu.
+                 Borbe u MMA-u obično se odvijaju u okruglom ringu ili kavezu.
+                 </p>
+                 <p id="disclaimer2">
+                  Kavez pruža dodatnu dimenziju borbe jer omogućava
+                  borcima korištenje zidova za obaranje ili odbranuMMA se razvio od marginalnog sporta do globalno popularnog fenomena. Organizacije poput UFC-a 
+                  (Ultimate Fighting Championship) igraju ključnu ulogu u popularizaciji sporta i privlačenju pažnje široke publike..</p>
+                  <a class="btn btn-outline-primary" id="togglebutton2">Prikaži više</a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 trening ">
+              <img src="assets/img/slika16.jpg" alt="slika" />
+            </div>
+        </div>
+      </div>
+      <div class="container mt-5 ms-auto main">
+        <div class="row ms-auto justify-content-center align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 trening">
+              <img src="assets/img/kickbox.jpg" alt="slika" />
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <h2><span>K</span>ICKBOX</h2>
+              <p id="intro2">Kickbox uključuje širok spektar tehnika, uključujući udarce rukama, udarce nogama,kolena
+               i laktove.Raznovrsnost tehnika čini ovaj sport izazovnim i dinamičnim.
+               Kickbox zahteva dobru kondiciju, snagu i izdržljivost. Trening uključuje kombinaciju udaraca na vreću, 
+               fokusere, rad s partnerom i tehničkih vežbi.
+              </p>
+               <p id="disclaimer3">Postoje različite discipline unutar kickboxa, uključujući
+                full-contact, light-contact, low-kick, i K-1 stil. 
+               Svaka disciplina ima svoja pravila i ograničenja, pružajući borcima mogućnost 
+               da prilagode svoj stil prema svojim preferencijama.</p>
+               <a class="btn btn-outline-primary" id="togglebutton3">Prikaži više</a>
+            </div>
+        </div>
+      </div>
+      <div class="container mt-5 ms-auto main">
+        <div class="row justify-content-center align-items-center row2">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+              <h2><span>B</span>OX</h2>
+              <p id="intro4">Boks je uzbudljiv i izazovan borilački sport koji ne samo da razvija fizičku snagu, brzinu 
+                i izdržljivost, već i podstiče mentalnu odlučnost i strategiju.Boks se fokusira na udaranje rukama, 
+                posebno uz pomoć bokserskih rukavica.Osnovni udarci uključuju direkt, kroše i aperkat.</p>
+                <p id="disclaimer4">
+                  Da bi se osigurala poštena i sigurna konkurencija, bokseri su podeljeni u različite kategorije težine.
+                   Ove kategorije, poput perolake, lake, srednje, teške i super teške, 
+                  osiguravaju da se borci takmiče s protivnicima slične veličine i snage.
+                 </p>
+                 <a class="btn btn-outline-primary" id="togglebutton4">Prikaži više</a>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 trening">
+              <img src="assets/img/box.jpg" alt="slika" />
+            </div>
+        </div>
+      </div> 
+
+
+
+      <div id="slika-pozadina" class="mt-5">
+          <div id="blok">
+            <div class="row">
+              <div class="col-11 text-center">
+                <span><b><sub><i class="fa-solid fa-quote-right"></i></sub> Champions aren't made in the gyms. Champions are made from something they
+                  have deep inside them — a desire, a dream, a vision. <sup><i class="fa-solid fa-quote-left"></sup></i></b></span>
+              </div>
+              <div class="col-11 text-end">
+                <b><span>— Joe Fraizer</span></b>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="container">
+          <div class="col-12"  id="trainers">
+            <h3 class="text-center" ><span>T</span>RENERI</h3>
+          </div>
+          <div class="row" id="treneri">
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <div class="centriranje-trener">
+                  <div class="card card1">
+                    <img src="assets/img/trainer1.jpg" class="card-img-top" alt="slika trenera" />
+                    <div class="card-body">
+                      <h3 class="text-center">Stevan Maletić</h3>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="centriranje-trener">
+                <div class="card card1">
+                  <img src="assets/img/trainer2.jpg" class="card-img-top" alt="slika trenera" />
+                  <div class="card-body">
+                    <h3 class="text-center">Joe Rogan</h3>
+                  </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="centriranje-trener">
+                <div class="card card1">
+                  <img src="assets/img/trainer3.jpg" class="card-img-top" alt="slika trenera" />
+                  
+                  <div class="card-body">
+                    <h3 class="text-center">Ivan Milijevski</h3>
+                  </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-3">
+            <div class="centriranje-trener">
+                <div class="card ">
+                  <img src="assets/img/trainer4.jpg" class="card-img-top" alt="slika trenera" />
+                  <div class="card-body">
+                    <h3 class="text-center">Jesson Li</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="pozadina" class="mt-5">
+          <div class="container">
+            <form id="forma1">
+              <div class="col-12">
+                <h4 class="text-center mb-5 pt-5">UČLANITE SE U KLUB</h4>
+              </div>
+              <div class="row" id="imeprezime">
+                <div class="col-12 col-sm-6" id="ime">
+                </div>
+                <div class="col-12 col-sm-6" id="prezime">
+                </div>
+              </div>
+              <div class="col-12" id="email">
+              </div>
+              <div class="col-12" id="telefon">
+              </div>
+              <div class="col-12" id="dropdownlista">
+              </div>
+              <div class="row" id="radio">
+                <div class="col-4 text-center" id="musko">
+                </div>
+                <div class="col-4 text-center" id="zensko">
+                </div>
+                <div class="col-sm-4 col-12 text-center" id="neizjasnjeno">
+                </div>
+                  <div class="col-12"><span class="span-forma6">Morate izabrati jednu opciju</span></div>
+              </div>
+              <div class="col-12" id="komentar">
+              </div>
+              <div class="col-12 text-center" id="dugme1" onclick="proveraForme()">
+              </div>
+              <div class="col-12 text-center pb-5"><span class="span-logovanje">Uspesno ste se prijavili!</span></div>
+            </form>
+          </div>
+        </div>
+
+        <div class="container" id="klub">
+          <div class="col-12 klub">
+            <h5 class="text-center"><span>P</span>ONOS <span>K</span>LUBA</h5>
+          </div>
+          <div class="row justify-content-between" id="dodavanje">
+            <div class="col-12 col-sm-6 col-md-4">  
+              <div class="centriranje-trener">       
+                  <div class="card">
+                    <img src="assets/img/card1.jpg" class="card-img-top" alt="slika boksera" />
+                    <div class="card-body">
+                      <h5 class="card-title">Stefan Marković</h5>
+                      <p class="card-text">
+                        2<i class="fa-solid fa-trophy"></i>
+                        3<i class="fa-solid fa-medal"></i>
+                        6<i class="fa-solid fa-medal"></i>
+                        7<i class="fa-solid fa-medal"></i>
+                        </p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">  
+              <div class="centriranje-trener">       
+              <div class="card">
+            <img src="assets/img/card2.jpg" class="card-img-top" alt="slika boksera" />
+            <div class="card-body">
+              <h5 class="card-title">Van Ja Pin</h5>
+              <p class="card-text">
+                2<i class="fa-solid fa-trophy"></i>
+                3<i class="fa-solid fa-medal"></i>
+                6<i class="fa-solid fa-medal"></i>
+                7<i class="fa-solid fa-medal"></i>
+                </p>
+            </div>
+          </div>
+              </div>
+            </div>
+         <div class="col-12 col-sm-12 col-md-4">  
+            <div class="centriranje-trener">        
+                    <div class="card">
+                  <img src="assets/img/card3.jpg" class="card-img-top" alt="slika boksera" />
+                  <div class="card-body">
+                    <h5 class="card-title">Jelena Dravić</h5>
+                    <p class="card-text">
+                      2<i class="fa-solid fa-trophy"></i>
+                      3<i class="fa-solid fa-medal"></i>
+                      6<i class="fa-solid fa-medal"></i>
+                      7<i class="fa-solid fa-medal"></i>
+                      </p>
+                  </div>
+                </div>
+                </div>
+          </div>
+          </div>
+        </div>
+
+        <footer>
+          <div class="container-fluid">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-md-12 col-lg-4 text-center" >
+                  <h6>Kontakt informacije</h6>
+                  <ul class="row">
+                    <li class="col-12 col-md-6 col-lg-12"><i class="fa-solid fa-location-dot"></i> Zdravka Čelara 16,Beograd</li>
+                    <li class="col-12 col-md-6 col-lg-12"><i class="fa-solid fa-envelope"></i> nemanja.nedeljkovic.30.22@gmail.com</li>
+                  </ul>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4 text-center">
+                  <h6>Radno vreme</h6>
+                  <ul class="row">
+                    <li class="col-12 col-md-6 col-lg-12"><i class="fa-regular fa-clock"></i> Pon-Sub: 7:00-23:00</li>
+                    <li class="col-12 col-md-6 col-lg-12"><i class="fa-regular fa-clock"></i> Ned: 8:00-19:00</li>
+                  </ul>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4 text-center">
+                  <h6>Socijalne mreže</h6>
+                  <div class="row">
+                    <ul class="col-12 d-flex justify-content-evenly">
+                      <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></li></a>
+                      <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></li></a>
+                      <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></li></a>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <ul class="col-12 d-flex justify-content-evenly">
+                      <li><a href="" target="_blank"><i class="fa-solid fa-sitemap"></i></li></a>
+                      <li><a href="" target="_blank"><i class="fa-solid fa-rss"></i></li></a>
+                      <li><a href="" target="_blank"><i class="fa-solid fa-file"></i></li></a>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+               
+              <div class="row copy">
+                <div class="col-12">
+                  <p class="text-center">Copyright &copy; 2023 Nemanja Nedeljković</p>
+                </div>
+              </div>
+            </div>
+          </div>
+     
+        </footer>
+             <!--moj js-->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>

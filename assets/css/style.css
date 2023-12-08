@@ -1,0 +1,311 @@
+
+.container-fluid{
+    z-index: 5;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+ul li{
+    list-style-type: none;
+}
+.main:nth-child(even)
+{
+    text-align: end;
+}
+.nav-item a,.container-fluid h1 a{
+    color:white;
+    font-size:24px;
+}
+.nav-item a:hover{
+    text-decoration: underline white 2px;
+    color:white;
+}
+.carousel-item{
+    height:20%;
+}
+.main{
+    margin-top:5%;
+}
+.nav-item a{
+    border-radius:10px;
+}
+.container-fluid h1 a:hover{
+    color:white;
+}
+.container-fluid h1 a{
+    font-size:30px;
+}
+.container-fluid h1 img{
+    height:40px;
+}
+.main img{
+    border-radius: 10px;
+    border:1px solid #034efc
+}
+h2{
+    text-align: center;
+}
+h2 span,#trainers h3 span{
+    color:#034efc
+}
+#slika-pozadina{
+    background: url("../img/cover.jpg");  
+    background-size: cover;
+    width:100%;
+    height:300px;
+}
+#blok{
+    width:80%;
+    height:60%;
+    border:3px solid #034efc;
+    left:11%;
+    opacity:0.7;
+    background-color:white;
+    position: relative;
+    top:20%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+#blok span{
+    font-size:20px;
+}
+#treneri .card{
+    width:14rem;
+}
+.card1{
+    margin-bottom:20px;
+}
+#pozadina{
+    background: url("../img/cover2.jpg");  
+    background-size: cover;
+    width:100%;
+    height:inherit;
+}
+#pozadina h4{
+    font-size:34px;
+    color:#ffffff;
+}
+#klub .klub h5{
+    font-size:34px;
+}
+#trainers h3{
+    font-size:38px;
+}
+#trainers{
+    margin-top:100px;
+}
+#treneri{
+    padding-bottom:100px;
+    margin-top:70px;
+}
+#dodavanje .centriranje-trener .card{
+    width:20rem;
+}
+#klub .card-text i{
+    font-size: 20px;
+}
+#klub .card-text i:nth-child(1),#klub .card-text i:nth-child(2){
+    color:gold;
+}
+#klub .card-text i:nth-child(3){
+    color:silver;
+}
+#klub .card-text i:nth-child(4){
+    color:#CD7F32;
+}
+#futer ul li{
+    display: inline;
+}
+footer .container-fluid{
+    padding-top: 20px;
+    margin-top:  50px;
+}
+.copy{
+    border-top: 1px solid white;
+}
+footer{
+    background-color: #2e2e2e;
+}
+footer h6,footer ul li,footer ul li i{
+    color:white;
+}
+footer h6{
+    font-size: 26px;
+    text-decoration: underline;
+}
+.copy p{
+    color:white;
+}
+form{
+    width:70%;
+    margin:0px auto;
+}
+.col-6 input{
+    width:100%;
+    height:50px;
+    margin-bottom:10px;
+}
+
+.col-12 input,.col-12 select{
+    width:100%;
+    height:50px;
+    font-size:16px;
+}
+#zaglavlje{
+    background-color: #2e2e2e;
+}
+#opis p{
+    text-align: center;
+}
+#blok-slika img{
+    width: 85%;
+    border-radius:20px;
+}
+#opis a{
+        border-radius: 15px;
+}
+#opis a:hover{
+    background-color:white;
+    color:#034efc;
+}
+#opis h2{
+    text-decoration: underline;
+    font-size:26px;
+}
+#radio .col-12 input{
+    width:13px;
+    height:13px;
+}
+#radio{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+textarea{
+   width: 100%;
+   height: 150px;
+}
+#dugme1 input{
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    border:2px solid #034efc;
+}
+#dugme1 input:hover{
+    color:#034efc;
+}
+#pozadina input,#pozadina textarea,#pozadina select{
+    border-radius: 10px;
+    border:2px solid #034efc;
+}
+#radio .col-4 span{  
+    color:#ffffff;
+    font-size:18px;
+    font-weight: bold;
+}
+#radio .col-sm-4{
+    color:#ffffff;
+    font-size:18px;
+    font-weight: bold;
+}
+#klub{
+    margin-top: 8%;
+    margin-bottom:8%;
+}
+#klub h5{
+    margin-bottom:2%;
+}
+#klub h5 span,h4 span{
+    color: #034efc;
+}
+.span-forma,.span-forma2,.span-forma3,.span-forma4,.span-forma5,.span-forma6{
+    display: none;
+}
+.span-logovanje{
+    display: none;
+}
+#imeprezime,#email,#telefon,#dropdownlista{
+    margin-bottom: 20px;
+}
+#imeiprezime{
+    margin-bottom:10px;
+}
+.prikazi{
+    display: block;
+     color: red;
+     font-size: 16px;
+}
+.prikazi2{
+    display: block;
+     color: lightgreen;
+     font-size: 16px;
+}
+#pozadinska{
+    background: url("../img/pozadina4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height:300px;
+}
+#pozadinska h2{
+    color:white;
+    letter-spacing: 30px;
+}
+@keyframes example{
+    0% {top:-100%}
+    100%{top:0px}
+}
+.centriranje-blok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:300px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+}
+iframe{
+    border-radius: 10px;
+}
+#kontakt input{
+
+    border-radius: 10px;
+    border:2px solid #034efc;
+}
+#kontakt select{
+    border-radius: 10px;
+    border:2px solid #034efc;
+}
+#dugme2 input{
+    font-weight: bold;
+}
+.cene .card{
+    width:22rem;
+}
+.usluga .card-header,.usluga .card-footer{
+    background-color: #2e2e2e;
+    height: 30px;
+}
+.treneri .card{
+    width:100%;
+}
+#dodavanje .card{
+    width:15rem;
+}
+.centriranje-trener{
+    display:flex;
+    justify-content: center;
+}
+#dugme2 input{
+    margin-top:10px;
+    background-color: white;
+}
+#blok-slika img{
+    opacity: 0.7;
+}
+#blok-slika img:hover{
+    opacity: 1;
+}
