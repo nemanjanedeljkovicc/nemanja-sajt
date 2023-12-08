@@ -44,7 +44,7 @@ n.innerHTML=z;
 
 ime.innerHTML=`<input type="text" name="ime" id="ime1" placeholder="Ime:Primer(Nemanja)" /><span class="span-forma">Ime mora početi velikim slovom</span>`;
 document.getElementById("prezime").innerHTML=`<input type="text" name="prezime" id="prezime1" placeholder="Prezime:Primer(Nedeljković)" /><span class="span-forma2">Prezime mora početi velikim slovom</span>`;
-email.innerHTML=`<input type="text" name="email" id="email1" placeholder="Email:Primer(nemanja.nedeljkovic@gmail.com)" /><span class="span-forma3">Mejl mora sadržati @</span>`;
+email1.innerHTML=`<input type="text" name="email" id="email1" placeholder="Email:Primer(nemanja.nedeljkovic@gmail.com)" /><span class="span-forma3">Mejl mora sadržati @</span>`;
 telefon.innerHTML=`<input type="text" name="telefon" id="telefon1" placeholder="Telefon:Primer(0612345678)" /><span class="span-forma4">Telefon mora početi sa 06 i imati 10 cifara</span>`;
 
 musko.innerHTML=`<input type="radio" name="rb" value="musko" id="rb1" /><span>Muško</span><br/>`;
