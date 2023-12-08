@@ -8,6 +8,9 @@ body{
 ul li{
     list-style-type: none;
 }
+h1 a{
+    text-decoration:none;
+}
 .main:nth-child(even)
 {
     text-align: end;
