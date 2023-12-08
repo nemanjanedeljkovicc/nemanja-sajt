@@ -21,10 +21,12 @@ if(slika1.src=='https://nemanjanedeljkovicc.github.io/nemanja-sajt/assets/img/sl
 }
 else if(slika1.src=='https://nemanjanedeljkovicc.github.io/nemanja-sajt/assets/img/slika7.jpg')
 {
+    console.log("usli smo u else");
     slika1.src="assets/img/slika8.jpg";
 }
 else if(slika1.src=='https://nemanjanedeljkovicc.github.io/nemanja-sajt/assets/img/slika8.jpg')
 {
+    console.log("usli smo u else2");
     slika1.src="assets/img/slika6.jpg";
 }
 setTimeout(promeni,3000);
